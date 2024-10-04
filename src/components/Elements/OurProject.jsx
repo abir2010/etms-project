@@ -2,82 +2,146 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const filters = [
-  { label: "Commercial", filter: ".cat-1" },
-  { label: "Education", filter: ".cat-4" },
-  { label: "Hospital", filter: ".cat-2" },
-  { label: "Residential", filter: ".cat-3" },
-  { label: "Office", filter: ".cat-5" },
-  { label: "Reconstruction", filter: ".cat-6" },
+  { label: "Loungewear", filter: ".cat-1" },
+  { label: "Man's Camisole", filter: ".cat-4" },
+  { label: "Man's Long Sleeve", filter: ".cat-2" },
+  { label: "Man's Print Tshirt", filter: ".cat-3" },
+  { label: "Man's under-shirt", filter: ".cat-5" },
+  { label: "Man's Underwear", filter: ".cat-6" },
+  { label: "Pajamas", filter: ".cat-6" },
 ];
 
 const projects = [
   {
-    image: require("./../../images/projects/portrait/pic1.jpg"),
-    title: "Chair Furniture",
-    address: "Muscat, Sultanate of Oman",
+    image: require("./../../resources/selection/Screenshot_5.png"),
+    title: "Man's Print Tshirt",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-2",
   },
   {
-    image: require("./../../images/projects/portrait/pic2.jpg"),
-    title: "Furniture",
-    address: "North House",
+    image: require("./../../resources/selection/xim7003-1_3.jpg"),
+    title: "Loungewear",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-2",
   },
   {
-    image: require("./../../images/projects/portrait/pic3.jpg"),
-    title: "Living room",
-    address: "Aqaba, Jordan",
+    image: require("./../../resources/selection/1.jpg"),
+    title: "Man's under-shirt",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-6",
   },
   {
-    image: require("./../../images/projects/portrait/pic4.jpg"),
-    title: "Dream Workspace",
-    address: "Perth, Australia",
+    image: require("./../../resources/selection/2.png"),
+    title: "Man's Underwear",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-6",
   },
   {
-    image: require("./../../images/projects/portrait/pic5.jpg"),
-    title: "Decore",
-    address: "Aqaba, Jordan",
+    image: require("./../../resources/selection/22.jpg"),
+    title: "Man's Print Tshirt",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-3",
   },
   {
-    image: require("./../../images/projects/portrait/pic6.jpg"),
-    title: "Modern Decoration",
-    address: "Muscat, Sultanate of Oman",
+    image: require("./../../resources/selection/22140579_fpx.jpeg"),
+    title: "Man's Print Tshirt",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-3",
   },
   {
-    image: require("./../../images/projects/portrait/pic7.jpg"),
-    title: "Bathroom",
-    address: "North House",
+    image: require("./../../resources/selection/61hf0VT72eL._AC_UF894,1000_QL80_.jpg"),
+    title: "Pajamas",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-1",
   },
   {
-    image: require("./../../images/projects/pic-l-5.jpg"),
-    title: "Lamp decoration",
-    address: "Aqaba, Jordan",
+    image: require("./../../resources/selection/Screenshot_1.png"),
+    title: "Man's Long Sleeve",
+    address: "lorem",
     width: "col-md-6",
     filter: "cat-6",
   },
   {
-    image: require("./../../images/projects/pic-1.jpg"),
-    title: "Building house",
-    address: "Ultanate of Oman",
+    image: require("./../../resources/selection/Screenshot_2.png"),
+    title: "Man's Long Sleeve",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-5",
   },
   {
-    image: require("./../../images/projects/pic-2.jpg"),
-    title: "Spa residence",
-    address: "Perth, Australia",
+    image: require("./../../resources/selection/Screenshot_3.png"),
+    title: "Man's Long Sleeve",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-4",
+  },
+  {
+    image: require("./../../resources/selection/Screenshot_4.png"),
+    title: "Man's Long Sleeve",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-2",
+  },
+  {
+    image: require("./../../resources/selection/Screenshot_5.png"),
+    title: "Man's Print Tshirt",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-6",
+  },
+  {
+    image: require("./../../resources/selection/Screenshot_7.png"),
+    title: "Pajamas",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-6",
+  },
+  {
+    image: require("./../../resources/selection/Screenshot_6.png"),
+    title: "Pajamas",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-3",
+  },
+  {
+    image: require("./../../resources/selection/61lpfWu18DL._AC_UY1000_.jpg"),
+    title: "Man's Under-shirt",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-3",
+  },
+  {
+    image: require("./../../resources/selection/71aeqWaLknL._AC_UY350_.jpg"),
+    title: "Man's Under-shirt",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-1",
+  },
+  {
+    image: require("./../../resources/selection/Screenshot_5.png"),
+    title: "Man's Print Tshirt",
+    address: "lorem",
+    width: "col-md-6",
+    filter: "cat-6",
+  },
+  {
+    image: require("./../../resources/selection/11.png"),
+    title: "Man's Solid Tshirt",
+    address: "lorem",
+    width: "col-md-3",
+    filter: "cat-5",
+  },
+  {
+    image: require("./../../resources/selection/3.png"),
+    title: "Man's Underwear",
+    address: "lorem",
     width: "col-md-3",
     filter: "cat-4",
   },
@@ -113,8 +177,8 @@ class OurProject extends React.Component {
               <div className="mt-separator-outer separator-left">
                 <div className="mt-separator">
                   <h2 className="text-uppercase sep-line-one ">
-                    <span className="font-weight-300 text-primary">Our</span>{" "}
-                    Project
+                    <span className="font-weight-300 text-primary">Selection</span>{" "}
+                    Products
                   </h2>
                 </div>
               </div>
@@ -169,7 +233,7 @@ class OurProject extends React.Component {
             </div>
           </div>
           <div className="hilite-title text-left p-l50 text-uppercase text-pop-up-top">
-            <strong>Projects</strong>
+            <strong>Products</strong>
           </div>
         </div>
       </>

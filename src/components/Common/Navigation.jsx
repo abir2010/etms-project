@@ -41,11 +41,12 @@ class Navigation extends React.Component {
             <li>
               <NavLink to={"/services"}>Services</NavLink>
             </li>
-
+            <li>
+              <NavLink to={"/selection"}>Selection Fashion</NavLink>
+            </li>
             <li>
               <NavLink to={"/contactus"}>Contact us</NavLink>
             </li>
-
             <li>
               <NavLink to={"/project-masonary"}>Projects</NavLink>
             </li>

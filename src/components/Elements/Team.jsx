@@ -10,7 +10,7 @@ const teamMembers = [
   {
     image: require("./../../resources/p2.png"),
     membername: "Mainul Kabir",
-    position: "Director",
+    position: "Deputy Managing Director",
   },
   {
     image: require("./../../resources/p3.png"),

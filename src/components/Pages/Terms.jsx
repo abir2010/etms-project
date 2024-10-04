@@ -10,8 +10,8 @@ class Terms extends React.Component {
       <>
         <div className="page-content">
           <Banner
-            title="For your roofing and siding, quality we’ll be providing!"
-            pagename="List Group"
+            title="Read out all our terms and conditions."
+            pagename="Terms & Conditions"
             bgimage={bnrimg}
           />
 

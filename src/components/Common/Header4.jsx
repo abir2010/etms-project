@@ -80,13 +80,16 @@ class Header extends React.Component {
           </div>
           <div className="sticky-header main-bar-wraper">
             <div className="main-bar bg-white">
-              <div className="container">
+              <div className="container" style={{padding:"8px"}}>
                 <div className="logo-header">
-                  <div className="logo-header-inner logo-header-one">
+                  <div className="logo-header-inner logo-header-one" 
+                    style={{display:'flex'}}
+                  >
+                    <img width='90' src={this.state.logo} alt="" />
                     <NavLink to={"./"}>
                       <div style={{ color: "#fff" }}>ETMS</div>
                       <div style={{ color: "#fff", fontSize: "12px" }}>
-                        BELVEDERE PROPERTY (BD) LTD.
+                        BELVEDERE PROPERTY(BD) LTD.
                       </div>
                     </NavLink>
                   </div>
